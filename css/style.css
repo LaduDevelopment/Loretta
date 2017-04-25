@@ -16,11 +16,11 @@ body {
   font-size: 18px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.3);
-  background: #000 url(../images/broken_noise.png) repeat;
+  background: #D7D2CB;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   body {
-    background: #000 url(../images/broken_noise.png) repeat;
+    background: #D7D2CB;
   }
 }
 
@@ -52,13 +52,13 @@ body {
 }
 
 a {
-  color: #ea272d;
+  color: #006341;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #ea272d;
+  color: #006341;
   outline: none;
   text-decoration: none;
 }
@@ -77,17 +77,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #ea272d;
+  background: #006341;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #ea272d;
+  background: #006341;
 }
 
 ::selection {
   color: #fff;
-  background: #ea272d;
+  background: #006341;
 }
 
 .fh5co-nav {
@@ -109,12 +109,12 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-nav.scrolled {
-  background: #000 url(../images/broken_noise.png) repeat;
-  top: -82px;
+  background: #D7D2CB;
+  top: -142px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .fh5co-nav.scrolled {
-    background: #000 url(../images/broken_noise.png) repeat;
+    background: #D7D2CB;
   }
 }
 @media screen and (max-width: 480px) {
@@ -134,14 +134,14 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000 !important;
 }
 .fh5co-nav #fh5co-logo a {
-  font-size: 42px;
-  color: #fff !important;
+  font-size: 80px;
+  color: #006341 !important;
 }
 .scrolled .fh5co-nav #fh5co-logo a {
   color: #000 !important;
 }
 .fh5co-nav #fh5co-logo a span {
-  color: #ea272d;
+  color: #006341;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 0;
   text-align: left;
-  background: #ea272d;
+  background: #006341;
   padding: 20px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 0;
   position: absolute;
   pointer-events: none;
-  border-bottom-color: #ea272d;
+  border-bottom-color: #006341;
   border-width: 8px;
   margin-left: -8px;
 }
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6, figure {
   content: '';
   width: 30px;
   height: 2px;
-  background: #ea272d;
+  background: #006341;
   margin: 0 auto;
 }
 
@@ -367,7 +367,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-header .display-tc h2 a:before,
 .fh5co-cover .display-tc h2 a:before {
-  background: #ea272d;
+  background: #006341;
   content: "";
   position: absolute;
   bottom: 0;
@@ -407,7 +407,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-header .display-tc .btn.btn-demo,
 .fh5co-cover .display-tc .btn.btn-demo {
-  background: #ea272d;
+  background: #006341;
   border: none;
 }
 #fh5co-header .display-tc .btn.btn-demo:hover, #fh5co-header .display-tc .btn.btn-demo:focus,
@@ -418,7 +418,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-header .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #ea272d !important;
+  background: #006341 !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -478,8 +478,12 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-featured-menu .fh5co-heading h2, #fh5co-gallery .fh5co-heading h2, #fh5co-reservation-form .fh5co-heading h2 {
-  color: #fff;
+  color: #006341;
   font-family: "Satisfy", cursive;
+}
+#fh5co-featured-menu .fh5co-heading h3, #fh5co-gallery .fh5co-heading h3, #fh5co-reservation-form .fh5co-heading h3 {
+  color: #006341;
+  font-size: 20px;
 }
 #fh5co-featured-menu .fh5co-item-wrap, #fh5co-gallery .fh5co-item-wrap, #fh5co-reservation-form .fh5co-item-wrap {
   padding-left: 20px;
@@ -500,11 +504,15 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-featured-menu .fh5co-item h3, #fh5co-gallery .fh5co-item h3, #fh5co-reservation-form .fh5co-item h3 {
   margin-bottom: 0px;
-  color: #fff;
+  color: #AB5C57;
+}
+#fh5co-featured-menu .fh5co-item h4, #fh5co-gallery .fh5co-item h4, #fh5co-reservation-form .fh5co-item h4 {
+  margin-bottom: 0px;
+  color: #AB5C57;
 }
 #fh5co-featured-menu .fh5co-item .fh5co-price, #fh5co-gallery .fh5co-item .fh5co-price, #fh5co-reservation-form .fh5co-item .fh5co-price {
   font-style: 20px;
-  color: #fee856;
+  color: #006341;
   margin-bottom: 20px;
   font-size: 30px;
   display: block;
@@ -641,7 +649,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 10px;
 }
 #fh5co-slider-wrwap .flexslider .flex-control-nav li a {
-  background: #ea272d;
+  background: #006341;
   box-shadow: none;
   width: 12px;
   height: 12px;
@@ -752,7 +760,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #ea272d;
+  color: #006341;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -931,7 +939,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #ea272d;
+  background-color: #006341;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -1035,7 +1043,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-blog .fh5co-heading h2, #fh5co-contact .fh5co-heading h2 {
   font-family: "Satisfy", cursive;
-  color: #fff;
+  color: #006341;
+}
+
+#fh5co-blog .fh5co-heading p, #fh5co-contact .fh5co-heading p {
+  color: #006341;
 }
 
 .fh5co-blog {
@@ -1068,7 +1080,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding: 30px;
   float: left;
-  background: rgba(255, 255, 255, 0.03);
+  background: #AB5C57;
   -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
   -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.06);
@@ -1223,7 +1235,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-team > div h3 {
   margin-bottom: 0;
   font-size: 20px;
-  color: #ea272d;
+  color: #006341;
 }
 .fh5co-team > div .position {
   color: #d9d9d9;
@@ -1258,15 +1270,15 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   margin: 0;
   list-style: none;
-  color: rgba(255, 255, 255, 0.5);
+  color: #006341;
 }
 #fh5co-footer .fh5co-footer-links li a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #006341;
   text-decoration: none;
 }
 #fh5co-footer .fh5co-footer-links li a:hover {
   text-decoration: underline;
-  color: #ea272d;
+  color: #006341;
 }
 #fh5co-footer .fh5co-widget {
   margin-bottom: 30px;
@@ -1277,7 +1289,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-footer .fh5co-widget h4 {
-  color: #fff;
+  color: #006341;
   text-transform: uppercase;
   margin-bottom: 20px;
   font-size: 14px;
@@ -1313,7 +1325,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   z-index: 1901;
   width: 270px;
-  background: #000 url(../images/broken_noise.png) repeat;
+  background: #D7D2CB;
   top: 0;
   right: 0;
   top: 0;
@@ -1332,7 +1344,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #fh5co-offcanvas {
-    background: #000 url(../images/broken_noise.png) repeat;
+    background: #D7D2CB;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1573,13 +1585,13 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-primary {
-  background: #ea272d;
+  background: #006341;
   color: #fff;
-  border: 2px solid #ea272d;
+  border: 2px solid #006341;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #ec3e44 !important;
-  border-color: #ec3e44 !important;
+  background: #006341 !important;
+  border-color: #006341 !important;
 }
 .btn-primary.btn-outline {
   -webkit-border-radius: 0px;
@@ -1591,10 +1603,10 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-size: 14px !important;
   letter-spacing: 1px;
-  border: 2px solid #ea272d;
+  border: 2px solid #006341;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #ea272d;
+  background: #006341;
   color: #fff;
 }
 
